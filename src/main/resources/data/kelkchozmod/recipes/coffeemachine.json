@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "kelkchozmod:coffeebean"
+    },
+    "T": {
+      "item": "kelkchozmod:coffeefilter"
+    }
+  },
+  "pattern": [
+    "iii",
+    "BTB",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "item": "kelkchozmod:coffeemachine"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "kelkchozmod:block/coffeecrop_stage1"
+  }
+}

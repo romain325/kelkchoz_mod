@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kelkchozmod:block/coffeemachine"
+    },
+    "facing=south": {
+      "model": "kelkchozmod:block/coffeemachine",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "kelkchozmod:block/coffeemachine",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "kelkchozmod:block/coffeemachine",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "kelkchozmod:block/coffeecrop_stage0"
+    },
+    "age=1": {
+      "model": "kelkchozmod:block/coffeecrop_stage1"
+    },
+    "age=2": {
+      "model": "kelkchozmod:block/coffeecrop_stage2"
+    },
+    "age=3": {
+      "model": "kelkchozmod:block/coffeecrop_stage3"
+    },
+    "age=4": {
+      "model": "kelkchozmod:block/coffeecrop_stage4"
+    },
+    "age=5": {
+      "model": "kelkchozmod:block/coffeecrop_stage5"
+    },
+    "age=6": {
+      "model": "kelkchozmod:block/coffeecrop_stage6"
+    }
+  }
+}
