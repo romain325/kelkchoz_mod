@@ -3,6 +3,7 @@ package com.kelkchoz.kelkchozmod;
 import com.kelkchoz.kelkchozmod.common.blocks.BlocksInit;
 import com.kelkchoz.kelkchozmod.common.blocks.entity.ModEntities;
 import com.kelkchoz.kelkchozmod.common.effect.EffectsInit;
+import com.kelkchoz.kelkchozmod.common.event.loot.ModEventLootModifiers;
 import com.kelkchoz.kelkchozmod.common.items.ItemsInit;
 import com.kelkchoz.kelkchozmod.common.potions.PotionsInit;
 import com.kelkchoz.kelkchozmod.common.screen.CoffeeMachineScreen;
@@ -48,6 +49,7 @@ public class KelkchozMod {
         MenuTypes.MENUS.register(modEventBus);
         EffectsInit.MOB_EFFECTS.register(modEventBus);
         PotionsInit.POTIONS.register(modEventBus);
+        ModEventLootModifiers.LOOT_MODIFIER_SERIALIZER.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
